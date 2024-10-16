@@ -1,0 +1,15 @@
+# what will happended if two friends have same name in program 6
+dictionary = {}
+name_1 = input("Enter your name_1 :")
+language_1 = input(f"Enter your favorite language_1 :{name_1} :")
+dictionary.update({name_1 : language_1})
+name_2 = input("Enter your name_2 :")
+language_2 = input(f"Enter your favorite language_2 :{name_2} :")
+dictionary.update({name_2 : language_2})
+name_3 = input("Enter your name_3 :")
+language_3 = input(f"Enter your favorite language_3 :{name_3} :")
+dictionary.update({name_3 : language_3})
+name_4 = input("Enter your name_4 :")
+language_4 = input(f"Enter your favorite language_4 :{name_4} :")
+dictionary.update({name_4 : language_4})
+print(dictionary)
