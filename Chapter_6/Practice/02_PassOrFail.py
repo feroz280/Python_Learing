@@ -6,9 +6,9 @@ marks_3 = int(input("Enter marks of third subject :"))
 total_marks = 300
 sum_of_marks = marks_1 + marks_2 + marks_3
 # print(sum_of_marks)
-if((sum_of_marks / total_marks)*100 >= 44):
-    print("Conngrats ...!! Your are pass...")
-elif((sum_of_marks / total_marks) * 100 >= 33) :
-    print("Your are pass...!!")
+if((sum_of_marks / total_marks)*100 >= 44 and marks_1>=33 and marks_2>=33 and marks_3>=33):
+    print("Congrats ...!! Your are pass...")
+# elif((sum_of_marks / total_marks) * 100 >= 33) :
+#     print("Your are pass...!!")
 else:
     print("You need more hardwork , Try Again...!!")
